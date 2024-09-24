@@ -1,0 +1,82 @@
+/* Apply the Orbitron font to the main game container for a futuristic feel */
+.game-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    min-height: 100vh;
+    background-image: url("../../assets/space-image.jpg");
+    background-size: cover;
+    font-family: 'Orbitron', sans-serif; 
+    color: white;
+    padding:15px;
+    border-radius: 8px;
+}
+
+/* Apply a retro/arcade style for the score */
+.score-container {
+    display: flex;
+    width: 100vh;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Press Start 2P', cursive; /* Retro gaming font */
+    font-size: 24px;
+    color: yellow; /* Contrast for score visibility */
+}
+
+.hand-image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.left-hand-image{
+    font-size: 120px;
+    transform: rotate(90deg); 
+    font-family: 'Press Start 2P', cursive; /* Retro gaming font */
+    color: red;
+}
+.right-hand-image{
+    font-size: 120px;
+    transform: rotate(-90deg);
+    font-family: 'Press Start 2P', cursive; /* Retro gaming font */
+    color: red;
+}
+.players-containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.player-1-icons-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.player-2-icons-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.common-player-icon{
+    font-size: 28px;
+}
+.icons-text{
+    font-family: 'Press Start 2P', cursive; /* Retro gaming font */
+    color: yellow;
+    margin-left: 10px;
+}
+.common-containers-of-icons{
+    display: flex;
+    text-align: center;
+}
+.player-turn-text{
+    font-family: 'Press Start 2P', cursive; /* Retro gaming font */
+    color: yellow;
+}
+.result-image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.result-image{
+    width:192px;
+}

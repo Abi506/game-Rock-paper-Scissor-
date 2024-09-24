@@ -1,0 +1,32 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-logo-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.home-logo{
+    width:300px;
+}
+.heading{
+    font-size: 30px;
+}
+.play-button{
+    display: flex;
+    padding:10px;
+    background-color: #e64944;
+    color: white;
+    border-radius: 24px;
+    font-size: 20px;
+}
+.video-game-icon{
+    font-size: 30px;
+    align-self: center;
+    margin-right: 5px;
+}
